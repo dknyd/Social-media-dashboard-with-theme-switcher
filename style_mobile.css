@@ -1,0 +1,57 @@
+@media only screen and (max-width: 700px) {
+    main{
+        padding: 0rem 4rem;
+    }
+
+    /* BACKGROUND CONTAINER */
+    .container__top{
+        flex-direction: column;
+        padding: 4rem 1rem;
+    }
+    .container__mode{
+        justify-content: space-between;
+    }
+
+    /* SUMMARY CONTAINER */
+   .container__summary{
+    flex-direction: column;
+    margin: 0rem 1rem;
+    }
+
+    .summary{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    hr{
+        position: relative;
+        bottom: 1rem;
+    }
+
+ 
+    /* OVERVIEW CONTAINER */
+    .overview__title{
+        margin: 0rem 0rem 2rem 1rem;
+    }
+
+    .overview__tile{
+        gap: 1rem;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+
+    .container__overview{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1rem;
+    }
+
+
+ 
+
+
+
+}

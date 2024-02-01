@@ -1,0 +1,129 @@
+body{
+    background-color: var(--dark-very-dark-blue-bg);
+}
+
+.title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.total_followers{
+    color:var(--dark-desaturated-blue-text);
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.container__top{
+    background-color: var(--dark-very-dark-blue-top-bg-pattern);
+}
+.summary, .overview__tile{
+    background-color: var(--dark-dark-desaturated-blue-card-bg);
+}
+
+.userName{
+    color: var(--dark-desaturated-blue-text);
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.current__followers{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.text__followers{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    color: var(--dark-desaturated-blue-text)
+}
+
+.additional__followers{
+    margin-top: 1rem;
+    color: var(--lime-green);
+    font-size: 0.6rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overview__title{
+    color: white;
+    font-weight: 700;
+}
+
+.overview__type{
+    color: var(--dark-desaturated-blue-text);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.overview__number{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.overview__percentage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview__percentage{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.overview__tile.overview__likes__faceBook .overview__percentage {
+    color: var(--bright-red);
+  }
+  
+  .overview__tile.overview__pageViews__faceBook .overview__percentage {
+    color: var(--lime-green);
+  }
+
+  .overview__tile.overview__likes__instagram .overview__percentage {
+    color: var(--lime-green);
+  }
+
+  .overview__tile.overview__profileViews__instagram .overview__percentage {
+    color: var(--lime-green);
+  }
+
+  .overview__tile.overview__retweet__twitter .overview__percentage {
+    color: var(--lime-green);
+  }
+
+  .overview__tile.overview__likes__twitter .overview__percentage {
+    color: var(--lime-green);
+  }
+
+  .overview__tile.overview__likes__youtube .overview__percentage {
+    color: var(--bright-red);
+  }
+
+  .overview__tile.overview__total__views__youtube .overview__percentage {
+    color: var(--bright-red);
+  }
+
+    .summary:hover{
+      -webkit-filter: brightness(140%);
+      transition: linear .15s;
+    }
+
+    .overview__tile:hover{
+      -webkit-filter: brightness(140%);
+      transition: linear .15s;
+    }
+ 

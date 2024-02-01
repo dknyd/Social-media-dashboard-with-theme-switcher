@@ -1,0 +1,53 @@
+@media only screen and (min-width: 701px) {
+    /* BACKGROUND CONTAINER */
+    .container__top{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4rem 2rem;
+      }
+
+      .current_mod{
+        margin-right: 1rem;
+      }
+
+    /* SUMMARY CONTAINER */
+    .container__summary{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .summary{
+        width: 25%;
+        margin-right: 1rem;
+    }
+
+    .summary__youtube{
+        margin-right: 0rem;
+    } 
+
+    hr{
+       position: relative;
+       right: 1rem;
+       bottom: 1rem;
+    }
+
+  
+    
+
+    /* OVERVIEW CONTAINER */
+    .overview__title{
+        margin: 1rem 0rem 1rem 2rem;
+    }
+
+    .container__overview{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin: 0rem 2rem;
+    }
+    
+
+
+
+}
